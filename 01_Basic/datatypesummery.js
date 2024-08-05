@@ -40,3 +40,5 @@ console.log(typeof heros)
 // function = function
 // null = object
 // object = object 
+
+
