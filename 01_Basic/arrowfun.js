@@ -1,39 +1,45 @@
-const user = {
-name: "purv",
-price: 999,
-welcomemessage: function(){
-     console.log(`${this.name} ,welcome to website`);
-     console.log(this);
-  }
-}
-user.welcomemessage()
-user.name = "pam";
-user.welcomemessage()
 
-console.log(); //-----return {}
-console.log(this); //----return undefined
+//  arrow function syntax () => {} -------------------------------------
 
-function chai(){
-    let username = "purv"
-    console.log(this);
+// const user = {
+// name: "purv",
+// price: 999,
+// welcomemessage: function(){
+//      console.log(`${this.name} ,welcome to website`);
+//      console.log(this);
+//   }
+// }
+// user.welcomemessage()
+// user.name = "pam";
+// user.welcomemessage()
+
+// console.log(); //-----return {}
+// console.log(this); //----return undefined
+
+// function chai(){
+//     let username = "purv"
+//     console.log(this);
 
         
-}
-chai()
+// }
+// chai()
 
-const chai = function (){
-    let username = "purv"
-    console.log(this.username);
+// const chai = function (){
+//     let username = "purv"
+//     console.log(this.username);
     
-}
-chai()
+// }
+// chai()
 
-const chai =  () =>{
-let username = "purv"
-console.log(this.username);
+// const chai =  () =>{
+// let username = "purv"
+// console.log(this.username);
 
-}
-chai()
+// }
+// chai()
+
+
+
 // never use this in function it is only use in object.
 
 const addtwo = (num1 , num2) => {
